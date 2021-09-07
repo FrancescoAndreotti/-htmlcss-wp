@@ -17,7 +17,8 @@
   }
   ul{
       margin-left: -14px;
-      margin-top: 14px;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
 
   li{
@@ -42,6 +43,7 @@
       position: relative;
       height: 600;
       background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(../img/banner.jpg);
+      border-radius: 10px;
   }
   .ocra-div{
       width: 50%;
@@ -55,14 +57,27 @@
       font-size: 22px;
   }
 
-  .ocra-div-p{
+  .color-white{
     color: white;
   }
 
-  .lightblue{
-      height: 320;
-      background-color: rgba(171,207,231,255);
-      margin-top: 15px;
+  .color-lightgrey{
+      color: rgb(179, 178, 178);
+  }
+  img{
+      width: 100%;
+      filter: brightness(90%);
+      border-radius: 10px;
+      height: 150px;
+  }
+
+ .main-title-margine{
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+  
+  .main-title{
+      font-size: 30px;
   }
 
   .width-aside{
@@ -70,23 +85,17 @@
   }
 
   .width-article{
-      width: 50%;
+      width: calc(50% - 30px);
+      margin: 0 15px;
+  }
+  h4{
+      font-weight: lighter;
+      margin-top: 10px;
+      margin-bottom: 5px;
   }
 
-  aside, article{
-      height: 270px;
-      margin-top: 50px;
-      border-top: 15px solid #0087f9;
-      margin-bottom: 50px;
-      border-bottom: 15px solid #0087f9;
-  }
-
-  article{
-      border-left: 10px solid #0087f9;
-      border-right: 10px solid #0087f9;
-}
-
-.viola{
-    height: 50px;
-    background-color: #8501fd;
+  footer{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
