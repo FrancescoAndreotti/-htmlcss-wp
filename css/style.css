@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  ul{
+      margin-left: -14px;
+      margin-top: 14px;
+  }
+
+  li{
+      display: inline-block;
+    }
+
+  a{
+    padding: 14px;
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  .logo{
+      width: 163;
+      height: 69;
+  }
+
+  .float-left {
+    float: left;
+  }
+  
+  .ocra{
+      position: relative;
+      height: 600;
+      background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(../img/banner.jpg);
+  }
+  .ocra-div{
+      width: 50%;
+      position: absolute;
+      left: 40px;
+      bottom: 60px;
+  }
+
+  .ocra-div-titolo{
+      color: white;
+      font-size: 22px;
+  }
+
+  .ocra-div-p{
+    color: white;
+  }
+
+  .lightblue{
+      height: 320;
+      background-color: rgba(171,207,231,255);
+      margin-top: 15px;
+  }
+
+  .width-aside{
+      width: 25%;
+  }
+
+  .width-article{
+      width: 50%;
+  }
+
+  aside, article{
+      height: 270px;
+      margin-top: 50px;
+      border-top: 15px solid #0087f9;
+      margin-bottom: 50px;
+      border-bottom: 15px solid #0087f9;
+  }
+
+  article{
+      border-left: 10px solid #0087f9;
+      border-right: 10px solid #0087f9;
+}
+
+.viola{
+    height: 50px;
+    background-color: #8501fd;
+}
